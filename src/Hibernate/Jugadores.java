@@ -31,6 +31,9 @@ public class Jugadores implements java.io.Serializable {
 		this.peso = peso;
 		this.posicion = posicion;
 	}
+	public String toString() {
+		return codigo+"  "+equipos.getNombre()+"  "+nombre+"  "+procedencia+"  "+altura+"  "+peso+"  "+posicion;
+	}
 
 	public int getCodigo() {
 		return this.codigo;
