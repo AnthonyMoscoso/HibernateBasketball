@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.10.0.final using JasperReports Library version 6.10.0-unknown  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Equipos Liga" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="30" bottomMargin="30" uuid="fa5741a3-340a-4f22-835f-4c72d8c4c5c9">
+	<parameter name="titulo" class="java.lang.String"/>
+	<parameter name="autor" class="java.lang.String"/>
+	<parameter name="fecha" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[SELECT Equipos.nombre,Equipos.ciudad,Equipos.conferencia,Equipos.division,COUNT(Jugadores.Nombre_equipo) as NUMJUGADORES FROM Equipos left join Jugadores on Equipos.Nombre = Jugadores.Nombre_equipo group by (nombre)]]>
+	</queryString>
+	<field name="Nombre" class="java.lang.String"/>
+	<field name="ciudad" class="java.lang.String"/>
+	<field name="conferencia" class="java.lang.String"/>
+	<field name="division" class="java.lang.String"/>
+	<field name="NUMJUGADORES" class="java.lang.Integer"/>
+	<title>
+		<band height="98" splitType="Immediate">
+			<rectangle>
+				<reportElement x="27" y="0" width="501" height="70" backcolor="#2F60B5" uuid="265df4a8-43b8-4c26-8c7d-38a2451e0f93"/>
+			</rectangle>
+			<textField>
+				<reportElement x="160" y="23" width="265" height="25" backcolor="#C72C2A" uuid="66153fbf-135a-4c35-bd97-c9368eadc58d">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{titulo}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="27" y="70" width="501" height="28" backcolor="#FCFCE1" uuid="388ada1e-193e-4061-9bd5-93ff17828b26"/>
+			</rectangle>
+			<textField>
+				<reportElement x="110" y="74" width="336" height="20" backcolor="#FCFCE1" uuid="37e13a25-015e-4bc7-af7c-cbb332ef4dbb"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="13"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Realizado por: " + $P{autor}
+                        + " on " + $P{fecha}]]></textFieldExpression>
+			</textField>
+			<image hAlign="Center" onErrorType="Icon">
+				<reportElement x="50" y="10" width="110" height="50" uuid="90406176-1412-4eee-ac2f-34059f185db1"/>
+				<imageExpression><![CDATA["res/imagenes/nba.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="33">
+			<rectangle>
+				<reportElement x="27" y="0" width="501" height="33" backcolor="#2F60B5" uuid="7353a8a6-a057-4520-8610-e46d8971299e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="39" y="8" width="64" height="15" uuid="887f48cb-da08-4589-8384-39eb45cf4442"/>
+				<textElement>
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[EQUIPO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="129" y="8" width="75" height="15" uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347"/>
+				<textElement>
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CIUDAD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="314" y="8" width="106" height="15" uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347"/>
+				<textElement>
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONFERENCIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="222" y="9" width="67" height="15" uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347"/>
+				<textElement>
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DIVISION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="435" y="8" width="81" height="15" uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347"/>
+				<textElement>
+					<font fontName="Times New Roman" size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nº Jugadores]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="31">
+			<rectangle>
+				<reportElement x="27" y="0" width="501" height="31" backcolor="#F9FCE8" uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1"/>
+				<graphicElement>
+					<pen lineWidth="1.0"/>
+				</graphicElement>
+			</rectangle>
+			<textField>
+				<reportElement x="39" y="9" width="70" height="15" uuid="02405d54-64e4-4999-b902-b44bbf88b4ac"/>
+				<textFieldExpression><![CDATA[$F{Nombre}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="124" y="8" width="85" height="15" uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810"/>
+				<textFieldExpression><![CDATA[$F{ciudad}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="315" y="8" width="105" height="15" uuid="02405d54-64e4-4999-b902-b44bbf88b4ac"/>
+				<textFieldExpression><![CDATA[$F{conferencia}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="8" width="67" height="15" uuid="02405d54-64e4-4999-b902-b44bbf88b4ac"/>
+				<textFieldExpression><![CDATA[$F{division}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="9" width="80" height="15" uuid="02405d54-64e4-4999-b902-b44bbf88b4ac"/>
+				<textElement textAlignment="Justified"/>
+				<textFieldExpression><![CDATA[$F{NUMJUGADORES}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="32">
+			<line>
+				<reportElement positionType="FixRelativeToBottom" x="27" y="-1" width="500" height="1" backcolor="#2F60B5" uuid="eba12ef3-fd1c-485f-9d52-8740af377cfb"/>
+				<graphicElement>
+					<pen lineWidth="2.0" lineColor="#2F60B5"/>
+				</graphicElement>
+			</line>
+			<rectangle>
+				<reportElement x="27" y="0" width="501" height="26" backcolor="#FCFCE1" uuid="da88eb38-35be-4f04-958b-4c412acaac63"/>
+			</rectangle>
+			<textField>
+				<reportElement x="380" y="2" width="90" height="20" uuid="60366024-1b9b-49d0-9caf-f600b7b01dd8"/>
+				<textElement textAlignment="Right">
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Página "+$V{PAGE_NUMBER}+" de"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="476" y="2" width="40" height="20" uuid="6d0d3469-6d03-4ef1-bc1f-d9a9a8628a2a"/>
+				<textElement>
+					<font isBold="true" isItalic="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="60">
+			<rectangle>
+				<reportElement x="27" y="-6" width="501" height="25" backcolor="#2F60B5" uuid="444509a3-2442-41b5-aac4-03cb34412c70"/>
+			</rectangle>
+			<textField>
+				<reportElement x="40" y="-1" width="300" height="15" backcolor="#C72C2A" uuid="4708d9da-6edb-41a8-b9c4-38e318c70691"/>
+				<textElement textAlignment="Left">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Total Registros: " +String.valueOf($V{REPORT_COUNT})]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

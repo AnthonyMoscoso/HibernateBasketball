@@ -17,6 +17,7 @@ import org.hibernate.exception.ConstraintViolationException;
 
 import Hibernate.Equipos;
 import Hibernate.Jugadores;
+import Jasper.Jasper;
 import Singleton.HibernateUtil;
 
 import javax.swing.JButton;
@@ -49,6 +50,8 @@ import java.io.IOException;
 import java.awt.event.ActionEvent;
 import java.awt.Toolkit;
 import javax.swing.JTextField;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
 
 public class Lanzador {
 
@@ -61,12 +64,14 @@ public class Lanzador {
 	private JFrame frame;
 	private ImageIcon LOGO_BASKET=new ImageIcon(Lanzador.class.getResource("/imagenes/logo_basket.png"));
 	private ImageIcon BALON=new ImageIcon(Lanzador.class.getResource("/imagenes/balon.png"));
-	private ImageIcon FONDO=new ImageIcon(Lanzador.class.getResource("/imagenes/b.png"));
+	private ImageIcon FONDO=new ImageIcon(Lanzador.class.getResource("/imagenes/b.jpg"));
 	public static  String equipo_name;
 	private JTextField txtCiudad;
 	private JTextField txtNombre;
 	private JTextField txtDivision;
 	private JTextField txtConferencia;
+	private Color orange= new Color(255, 102, 51);
+	private Color blue = new Color(0,102,204);
 	/**
 	/**
 	 * Launch the application.
@@ -170,7 +175,17 @@ public class Lanzador {
 		panel.add(btnEliminar, BorderLayout.EAST);
 		
 		
-		JButton btnCrudJg = new JButton("CRUD Jugadores");
+		JButton btnCrudJg = new JButton("<html><center>Mostrar todo<br> los jugadores</html>");
+		btnCrudJg.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnCrudJg.setBackground(blue);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnCrudJg.setBackground(orange);
+			}
+		});
 		btnCrudJg.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				Dialog_Jugadores dialog;
@@ -178,6 +193,8 @@ public class Lanzador {
 					equipo_name=null;
 					dialog = new Dialog_Jugadores(frame,true);
 					dialog.setVisible(true);
+					mostrarEquipos();
+					
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -186,28 +203,53 @@ public class Lanzador {
 				
 			}
 		});
+	
 		btnCrudJg.setForeground(new Color(0, 0, 0));
 		btnCrudJg.setBackground(new Color(255, 99, 71));
 		btnCrudJg.setFont(new Font("Cambria", Font.PLAIN, 14));
-		btnCrudJg.setBounds(36, 204, 157, 30);
+		btnCrudJg.setBounds(39, 214, 162, 57);
 		contentPane.add(btnCrudJg);
 		
-		JButton btnCrudTeams = new JButton("CRUD Equipos");
-		btnCrudTeams.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+		JButton btnInforme = new JButton("Realizar Informe");
+		btnInforme.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnInforme.setBackground(blue);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnInforme.setBackground(orange);
 			}
 		});
-		btnCrudTeams.setBackground(new Color(255, 99, 71));
-		btnCrudTeams.setForeground(new Color(0, 0, 0));
-		btnCrudTeams.setFont(new Font("Cambria", Font.PLAIN, 14));
-		btnCrudTeams.setBounds(36, 245, 157, 30);
-		contentPane.add(btnCrudTeams);
+		btnInforme.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				Jasper jasper = new Jasper();
+				jasper.crearJasper();
+			}
+		});
 		
-		JButton btnMostrarjg = new JButton("Mostrar Jugadores");
+		btnInforme.setBackground(new Color(255, 99, 71));
+		btnInforme.setForeground(new Color(0, 0, 0));
+		btnInforme.setFont(new Font("Cambria", Font.PLAIN, 14));
+		btnInforme.setBounds(38, 282, 163, 57);
+		contentPane.add(btnInforme);
+		
+		JButton btnMostrarjg = new JButton("<html><center>Mostrar Jugadores <br>por equipo</html>");
+		btnMostrarjg.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnMostrarjg.setBackground(blue);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnMostrarjg.setBackground(orange);
+			}
+		});
 		btnMostrarjg.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
 					mostrarJugadores() ;
+					mostrarEquipos();
 				} catch (IOException e1) {
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
@@ -217,30 +259,12 @@ public class Lanzador {
 		btnMostrarjg.setForeground(new Color(0, 0, 0));
 		btnMostrarjg.setBackground(new Color(255, 99, 71));
 		btnMostrarjg.setFont(new Font("Cambria", Font.PLAIN, 14));
-		btnMostrarjg.setBounds(36, 163, 157, 30);
+		btnMostrarjg.setBounds(39, 137, 162, 66);
 		contentPane.add(btnMostrarjg);
 		
 		lbVentanLogo = new JLabel("");
 		lbVentanLogo.setBounds(10, 11, 218, 115);
 		contentPane.add(lbVentanLogo);
-		
-		JButton btnADD = new JButton("ADD");
-		btnADD.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				crearEquipo();
-			}
-		});
-		btnADD.setBounds(1137, 429, 89, 23);
-		contentPane.add(btnADD);
-		
-		JButton btnUpdate = new JButton("UPDATE");
-		btnUpdate.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				actualizarEquipo();
-			}
-		});
-		btnUpdate.setBounds(1017, 429, 89, 23);
-		contentPane.add(btnUpdate);
 		
 		JPanel panel_1 = new JPanel();
 		panel_1.setBorder(new MatteBorder(2, 2, 2, 2, (Color) new Color(0, 0, 0)));
@@ -249,7 +273,55 @@ public class Lanzador {
 		contentPane.add(panel_1);
 		panel_1.setLayout(null);
 		
+		JButton btnADD = new JButton("ADD");
+		btnADD.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnADD.setBackground(blue);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnADD.setBackground(orange);
+			}
+		});
+		
+		JButton btnUpdate = new JButton("UPDATE");
+		btnUpdate.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mouseEntered(MouseEvent e) {
+				btnUpdate.setBackground(blue);
+			}
+			@Override
+			public void mouseExited(MouseEvent e) {
+				btnUpdate.setBackground(orange);
+			}
+		});
+		
+		JLabel lbTitlePnael = new JLabel("Gestion Equipos");
+		lbTitlePnael.setFont(new Font("Vogue", Font.BOLD, 16));
+		lbTitlePnael.setHorizontalAlignment(SwingConstants.CENTER);
+		lbTitlePnael.setBounds(40, 21, 217, 38);
+		panel_1.add(lbTitlePnael);
+		btnUpdate.setBackground(new Color(255, 102, 0));
+		btnUpdate.setBounds(38, 376, 89, 23);
+		panel_1.add(btnUpdate);
+		btnUpdate.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				actualizarEquipo();
+			}
+		});
+		btnADD.setBackground(new Color(255, 102, 0));
+		btnADD.setBounds(156, 376, 89, 23);
+		panel_1.add(btnADD);
+		btnADD.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				crearEquipo();
+			}
+		});
+		
 		JPanel panel_2 = new JPanel();
+		panel_2.setBorder(new MatteBorder(2, 1, 3, 1, (Color) new Color(0, 0, 0)));
+		panel_2.setBackground(new Color(255, 204, 0));
 		panel_2.setBounds(40, 165, 217, 95);
 		panel_1.add(panel_2);
 		panel_2.setLayout(new GridLayout(0, 1, 0, 0));
@@ -310,7 +382,7 @@ public class Lanzador {
 		panel_5.add(lblNewLabel_4);
 		
 		txtConferencia = new JTextField();
-		txtConferencia.setBackground(new Color(255, 204, 0));
+		txtConferencia.setBackground(new Color(255, 204, 51));
 		panel_5.add(txtConferencia);
 		txtConferencia.setColumns(10);
 		
@@ -324,7 +396,7 @@ public class Lanzador {
 	
 		
 		
-		mostrarEquipos();
+		//mostrarEquipos();
 	}
 	private void actualizarEquipo() {
 		if (table.getSelectedRow() >= 0) {
@@ -418,7 +490,7 @@ public class Lanzador {
 		}
 		else {
 			
-		}
+		} 
 	}
 	private void mostrarJugadores() throws IOException {
 		if (table.getSelectedRow() >= 0) {
@@ -428,6 +500,9 @@ public class Lanzador {
 				
 				Dialog_Jugadores dialog=new Dialog_Jugadores(frame,true);
 				dialog.setVisible(true);
+			}
+			else {
+				JOptionPane.showMessageDialog(null, "El equipo no tiene jugadores");
 			}
 		}
 		else {
