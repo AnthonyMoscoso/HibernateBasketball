@@ -95,6 +95,7 @@ public class Lanzador {
 	/**
 	 * Create the frame.
 	 */
+	//inicializamos nuestra ventana lanzador
 	private void initialize() {
 		frame = new JFrame();
 		frame.setIconImage(Toolkit.getDefaultToolkit().getImage(Lanzador.class.getResource("/imagenes/balon.png")));
@@ -166,6 +167,7 @@ public class Lanzador {
 		pnTable.add(panel, BorderLayout.SOUTH);
 		panel.setLayout(new BorderLayout(0, 0));
 		
+		//con este vento llamamos al metodo eliminar
 		JButton btnEliminar = new JButton("Eliminar");
 		btnEliminar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -396,17 +398,22 @@ public class Lanzador {
 	
 		
 		
-		//mostrarEquipos();
+		mostrarEquipos();
 	}
+	// si de nuestra tabla tenemos seleccionado un row , podemos modificar el equipo en caso contrario nos pedira que seleccionemos uno primero
 	private void actualizarEquipo() {
 		if (table.getSelectedRow() >= 0) {
+			// creamos los string a actualizar 
 			String ciudad,conferencia,division;
+			
 			SessionFactory sesion = HibernateUtil.getSessionFactory();
 			Session session = sesion.openSession();
 			Transaction tx = session.beginTransaction();
 			Equipos equipo = new Equipos ();
+			// el nombre nunca se puede modificar 
 			equipo.setNombre((String) model.getValueAt(table.getSelectedRow(), 0));
-			//ciudad
+			
+			// en caso de que tengamos datos en nuestro txt , coge esto como los datos nuevos si no , coge los datos antiguos
 			if(txtCiudad.getText().replace(" ", "").length()>0) {
 				ciudad=txtCiudad.getText();
 			}
@@ -428,22 +435,28 @@ public class Lanzador {
 			else {
 				conferencia=(String) model.getValueAt(table.getSelectedRow(), 3);
 			}
+			// le damos los datos obtenido a nuestro equipo
 			equipo.setCiudad(ciudad);
 			equipo.setConferencia(conferencia);
 			equipo.setDivision(division);
+			// mediante el metodo de nuestro contructor session que nos permite la conexion , actualizamos nuestro equipo
 			session.update(equipo);
 			try {
-				tx.commit();
+				tx.commit(); // realizamos el commit 
 			} catch (ConstraintViolationException e) {
 				JOptionPane.showMessageDialog(null,
 						e.getMessage() + "\n" + e.getErrorCode() + "\n" + e.getSQLException().getMessage());
 			}
+			// actualizamos la tabla
 			mostrarEquipos();
+			// cerramos la conexion 
 			session.close();
 		} else {
 			JOptionPane.showMessageDialog(null, "Debe seleccionar un Jugador primero");
 		}
 	}
+	// obtenemos el valor unico de nuestro equipo en este caso es el nombre , de la fila seleecionada , y pasamos por parametro 
+	// nuetro objeto y atravez de session.delete borramos el equipo 
 	private void eliminarEquipo() {
 		if (table.getSelectedRow() >= 0) {
 			SessionFactory sesion = HibernateUtil.getSessionFactory();
@@ -458,12 +471,13 @@ public class Lanzador {
 				JOptionPane.showMessageDialog(null,
 						e.getMessage() + "\n" + e.getErrorCode() + "\n" + e.getSQLException().getMessage());
 			}
-			mostrarEquipos();
+			mostrarEquipos(); // actualizamos la tabla
 			session.close();
 		} else {
 			JOptionPane.showMessageDialog(null, "Debe seleccionar un Jugador primero");
 		}
 	}
+	// obtenemos los datos del los txt 
 	private void crearEquipo() {
 		String nombre,ciudad,conferencia,division;
 		nombre=txtNombre.getText().replace(" ", "");
@@ -476,10 +490,12 @@ public class Lanzador {
 			SessionFactory sesion = HibernateUtil.getSessionFactory();
 			Session session = sesion.openSession();
 			Transaction tx = session.beginTransaction();
+			// guardamos nuestro objeto equipo  con lo valores obtenidos de los Text 
 			session.save(equipo);
 			try {
 				tx.commit();
-				mostrarEquipos();
+				mostrarEquipos();// actualizamos la tabla 
+				limpiar();
 			} catch (ConstraintViolationException e) {
 				System.out.println("DEPARTAMENTO DUPLICADO");
 				System.out.printf("MENSAJE: %s%n", e.getMessage());
@@ -492,9 +508,20 @@ public class Lanzador {
 			
 		} 
 	}
+	private void limpiar() {
+		 txtCiudad.setText("");
+		 txtNombre.setText("");
+		 txtDivision.setText("");
+		 txtConferencia.setText("");
+		
+	}
+	// mediante este metodo , siempre y cuando tengamos una fila seleccionada  inicializaremos nuestro Dialog_Jugadores
 	private void mostrarJugadores() throws IOException {
+		
 		if (table.getSelectedRow() >= 0) {
+			// obtenemos el numero d ejugadores de la columna5
 			int numeroDeJugadores=Integer.parseInt((String) model.getValueAt(table.getSelectedRow(), 4));
+			// si el equipo seleccionado tiene jugadores 
 			if(numeroDeJugadores>0) {
 				equipo_name=(String) model.getValueAt(table.getSelectedRow(), 0);
 				
@@ -515,6 +542,7 @@ public class Lanzador {
 				Image.SCALE_DEFAULT));
 		label.setIcon(icon);
 	}
+	//mediante este metodo obtenemos el equipo seleccionado llamandolo desde el JDIlo_jugadores 
 	
 	public Equipos recogerEquipo() {
 		
@@ -547,6 +575,7 @@ public class Lanzador {
 		
 		table.setModel(model);
 	}
+	// leemos todos los equipos de nuestro base de datos 
 	public void leerEquipos() {
 		
 			SessionFactory sesion = HibernateUtil.getSessionFactory();

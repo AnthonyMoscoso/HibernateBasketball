@@ -520,6 +520,8 @@ public class Dialog_Jugadores extends JDialog {
 	}
 
 	public void cargarComboBox() {
+		// atravez de un Query selecciono solo os nombres de los equipos los metos en un List de String 
+		// y este a la vez atravez de un iteratos los voy añadiendo a nuestro comboBox 
 		SessionFactory sesion = HibernateUtil.getSessionFactory();
 		Session session = sesion.openSession();
 		Query query = session.createQuery("SELECT E.nombre FROM Equipos E");
@@ -535,10 +537,13 @@ public class Dialog_Jugadores extends JDialog {
 		}
 
 	}
-
+	//Mediante este metodo obtenemos el indice de nuestro combobox cuando sea igual que el equipo que le pasmos 
 	public int getIndice(String team) {
 		int indice = 0;
 		for (int i = 0; i < comboEquipos.size(); i++) {
+			
+			// recorremos con un for desde 0 hasta el tamaño de nuestro comboBox  y cuando sea el stream que le pasemos igual
+			// al elemeno seleccionado nos devuelve el indice
 			if (team.equals(comboBox.getSelectedItem().toString())) {
 				indice = i;
 				break;
@@ -547,54 +552,58 @@ public class Dialog_Jugadores extends JDialog {
 		return indice;
 	}
 
+	//MEDIANTE ESTE METODO OBTENEMOS EL EQUIPO SELECCIONADO DESDE EL LANZADOR
+	//SIEMPRE Y CUANDO HALLAMOS SELECCIONADO ALGUNO
 	public void obtenerEquipo() throws IOException {
+		//Creamos una Instancia de nuestra clase Lanzador 
 		Lanzador l = new Lanzador();
+		//Creamos una instancia de nuestro Objeto  Equipos , la cual es igual a objeto que nos devuelve 
+		//la clase l del metodo recogerEquipo();
 		Equipos equipo = l.recogerEquipo();
 
-		SessionFactory sesion = HibernateUtil.getSessionFactory();
+		SessionFactory sesion = HibernateUtil.getSessionFactory();//Abrimos la conexion
 		Session session = sesion.openSession();
+		// si nos devuelve un valor le damos a nuestro comboBox el item que queremos que nos seleccione y le decimos
+		// que ya no es Enable ,ademas añadimos los valores de nuestro equipo a nuestro label
 		if (equipo != null) {
-			comboBox.setSelectedItem(equipo.getNombre());
-			// comboBox.setSelectedIndex(getIndice(equipo.getNombre()));
+			comboBox.setSelectedItem(equipo.getNombre()); 
 			comboBox.setEnabled(false);
 			lbNombreEquipo.setText(equipo.getNombre());
 			lbCiudadEquipo.setText(equipo.getCiudad());
 			lbConferenciaEquipo.setText(equipo.getConferencia());
 			lbDivisionEquipo.setText(equipo.getDivision());
-
+			
+			//Cargamos atrabez del query from cuando los jugadore son del equipo del equipo seleccionado 
 			Query query = session.createQuery("FROM Jugadores where equipos =" + "'" + equipo.getNombre() + "'");
-
+			
 			List<Jugadores> deparamentos = query.list();
 			Iterator<Jugadores> it = deparamentos.iterator();
+			//mediante un Iterator , cargamos los datos  en nuestra tabla
 			while (it.hasNext()) {
 				Jugadores jugador = it.next();
 				String[] data = { jugador.getCodigo() + "", jugador.getNombre(), jugador.getProcedencia(),
 						jugador.getAltura(), jugador.getPeso() + "", jugador.getPosicion() };
 				arrayDatos.add(data);
 			}
-
-			/*
-			 * mediante esta opcion los tendriamos sin tener que entras nuevamenten en la
-			 * base de datos pero tendriamops que programar que nos los ordene de manera
-			 * aumentativa
-			 * 
-			 * for (Jugadores j : equipo.getJugadoreses()) {
-			 * System.out.println(j.toString()); }
-			 */
 		} else {
+			// si el valor que nos devuelve es nulo hacemos invisibles los label de los datos del grupo 
 			lbNombreTeam.setVisible(false);
 			lbDivision.setVisible(false);
 			lbCiudad.setVisible(false);
 			lbConferencia.setVisible(false);
+			// nuestro comoBox es enable asi que podemos seleccionar el equipo de nuestrs base de datos deseado 
 			comboBox.setEnabled(true);
+			// Cargamos todo los Jugadores 
 			Query query = session.createQuery("FROM Jugadores");
 
 			List<Jugadores> deparamentos = query.list();
 			Iterator<Jugadores> it = deparamentos.iterator();
+			//Mediante un Iteratos recorgemos nuestr abase de datos y cargamos los datos en nuestra Tabla 
 			while (it.hasNext()) {
 				Jugadores jugador = it.next();
 				String[] data = { jugador.getCodigo() + "", jugador.getNombre(), jugador.getProcedencia(),
 						jugador.getAltura(), jugador.getPeso() + "", jugador.getPosicion() };
+				
 				arrayDatos.add(data);
 			}
 		}
