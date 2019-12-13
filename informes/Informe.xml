@@ -13,7 +13,7 @@
 			<reportElement uuid="265df4a8-43b8-4c26-8c7d-38a2451e0f93" x="47" y="30" width="501" height="70" backcolor="#2F60B5" origin="0" srcId="1" printId="1"/>
 		</rectangle>
 		<text textAlignment="Center" textHeight="22.998047" lineSpacingFactor="1.1499023" leadingOffset="-3.9013672">
-			<reportElement uuid="66153fbf-135a-4c35-bd97-c9368eadc58d" x="100" y="70" width="406" height="25" backcolor="#C72C2A" origin="0" srcId="2" printId="1"/>
+			<reportElement uuid="66153fbf-135a-4c35-bd97-c9368eadc58d" x="180" y="53" width="265" height="25" backcolor="#C72C2A" origin="0" srcId="2" printId="1"/>
 			<font fontName="Times New Roman" size="20" isBold="true"/>
 			<textContent><![CDATA[INFORME DE EQUIPOS]]></textContent>
 		</text>
@@ -21,12 +21,12 @@
 			<reportElement uuid="388ada1e-193e-4061-9bd5-93ff17828b26" x="47" y="100" width="501" height="28" backcolor="#FCFCE1" origin="0" srcId="3" printId="1"/>
 		</rectangle>
 		<text textAlignment="Center" textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
-			<reportElement uuid="37e13a25-015e-4bc7-af7c-cbb332ef4dbb" x="124" y="108" width="347" height="20" backcolor="#FCFCE1" origin="0" srcId="4" printId="1"/>
+			<reportElement uuid="37e13a25-015e-4bc7-af7c-cbb332ef4dbb" x="130" y="104" width="336" height="20" backcolor="#FCFCE1" origin="0" srcId="4" printId="1"/>
 			<font fontName="Times New Roman" size="13"/>
-			<textContent><![CDATA[Realizado por: ANTHONY MOSCOSOS on Sat Dec 07 19:19:29 ]]></textContent>
+			<textContent><![CDATA[Realizado por: ANTHONY MOSCOSOS on Fri Dec 13 14:51:]]></textContent>
 		</text>
-		<image scaleImage="RetainShape" hAlign="Center" vAlign="Top">
-			<reportElement uuid="90406176-1412-4eee-ac2f-34059f185db1" x="124" y="30" width="332" height="40" origin="0" srcId="5" printId="2"/>
+		<image scaleImage="RetainShape" hAlign="Center" vAlign="Top" onErrorType="Icon">
+			<reportElement uuid="90406176-1412-4eee-ac2f-34059f185db1" x="70" y="40" width="110" height="50" origin="0" srcId="5" printId="2"/>
 			<imageSource isEmbedded="true">
 				<![CDATA[iVBORw0KGgoAAAANSUhEUgAABOIAAANSCAYAAADI62G9AAFQVElEQVR42uzdCXhV1bn/8TCJjIIg
 TnVo1b+9dWqrVm3rLAha22qrbR2YoYjIJKA4xbE4VkVR6jxXozJkAsIQAoQhhCGMgQAhhISQnJPp
@@ -1548,520 +1548,520 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="887f48cb-da08-4589-8384-39eb45cf4442" x="59" y="136" width="64" height="15" origin="1" srcId="7" printId="1"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[nombre]]></textContent>
+			<textContent><![CDATA[EQUIPO]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="149" y="136" width="75" height="15" origin="1" srcId="8" printId="1"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[ciudad]]></textContent>
+			<textContent><![CDATA[CIUDAD]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
-			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="334" y="136" width="75" height="15" origin="1" srcId="9" printId="1"/>
+			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="334" y="136" width="106" height="15" origin="1" srcId="9" printId="1"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[conferencia]]></textContent>
+			<textContent><![CDATA[CONFERENCIA]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="242" y="137" width="67" height="15" origin="1" srcId="10" printId="1"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[Division]]></textContent>
+			<textContent><![CDATA[DIVISION]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
-			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="455" y="136" width="68" height="15" origin="1" srcId="11" printId="1"/>
+			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="455" y="136" width="81" height="15" origin="1" srcId="11" printId="1"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[Jugadores]]></textContent>
+			<textContent><![CDATA[Nº Jugadores]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="161" width="501" height="31" origin="2" srcId="12" printId="1"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="161" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="1"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="170" width="70" height="15" origin="2" srcId="13" printId="1"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="170" width="70" height="15" origin="2" srcId="13" printId="1"/>
 			<textContent><![CDATA[76ers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="172" width="85" height="15" origin="2" srcId="14" printId="1"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="169" width="85" height="15" origin="2" srcId="14" printId="1"/>
 			<textContent><![CDATA[Philadelphia]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="170" width="75" height="15" origin="2" srcId="15" printId="1"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="169" width="105" height="15" origin="2" srcId="15" printId="1"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="170" width="67" height="15" origin="2" srcId="16" printId="1"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="169" width="67" height="15" origin="2" srcId="16" printId="1"/>
 			<textContent><![CDATA[Atlantic]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="169" width="64" height="15" origin="2" srcId="17" printId="1"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="170" width="80" height="15" origin="2" srcId="17" printId="1"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="192" width="501" height="31" origin="2" srcId="12" printId="2"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="192" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="2"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="201" width="70" height="15" origin="2" srcId="13" printId="2"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="201" width="70" height="15" origin="2" srcId="13" printId="2"/>
 			<textContent><![CDATA[Bobcats]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="203" width="85" height="15" origin="2" srcId="14" printId="2"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="200" width="85" height="15" origin="2" srcId="14" printId="2"/>
 			<textContent><![CDATA[Charlotte]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="201" width="75" height="15" origin="2" srcId="15" printId="2"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="200" width="105" height="15" origin="2" srcId="15" printId="2"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="201" width="67" height="15" origin="2" srcId="16" printId="2"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="200" width="67" height="15" origin="2" srcId="16" printId="2"/>
 			<textContent><![CDATA[SouthEast]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="200" width="64" height="15" origin="2" srcId="17" printId="2"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="201" width="80" height="15" origin="2" srcId="17" printId="2"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="223" width="501" height="31" origin="2" srcId="12" printId="3"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="223" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="3"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="232" width="70" height="15" origin="2" srcId="13" printId="3"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="232" width="70" height="15" origin="2" srcId="13" printId="3"/>
 			<textContent><![CDATA[Bucks]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="234" width="85" height="15" origin="2" srcId="14" printId="3"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="231" width="85" height="15" origin="2" srcId="14" printId="3"/>
 			<textContent><![CDATA[Milwaukee]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="232" width="75" height="15" origin="2" srcId="15" printId="3"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="231" width="105" height="15" origin="2" srcId="15" printId="3"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="232" width="67" height="15" origin="2" srcId="16" printId="3"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="231" width="67" height="15" origin="2" srcId="16" printId="3"/>
 			<textContent><![CDATA[Central]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="231" width="64" height="15" origin="2" srcId="17" printId="3"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="232" width="80" height="15" origin="2" srcId="17" printId="3"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="254" width="501" height="31" origin="2" srcId="12" printId="4"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="254" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="4"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="263" width="70" height="15" origin="2" srcId="13" printId="4"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="263" width="70" height="15" origin="2" srcId="13" printId="4"/>
 			<textContent><![CDATA[Bulls]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="265" width="85" height="15" origin="2" srcId="14" printId="4"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="262" width="85" height="15" origin="2" srcId="14" printId="4"/>
 			<textContent><![CDATA[Chicago]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="263" width="75" height="15" origin="2" srcId="15" printId="4"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="262" width="105" height="15" origin="2" srcId="15" printId="4"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="263" width="67" height="15" origin="2" srcId="16" printId="4"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="262" width="67" height="15" origin="2" srcId="16" printId="4"/>
 			<textContent><![CDATA[Central]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="262" width="64" height="15" origin="2" srcId="17" printId="4"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="263" width="80" height="15" origin="2" srcId="17" printId="4"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="285" width="501" height="31" origin="2" srcId="12" printId="5"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="285" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="5"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="294" width="70" height="15" origin="2" srcId="13" printId="5"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="294" width="70" height="15" origin="2" srcId="13" printId="5"/>
 			<textContent><![CDATA[Cavaliers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="296" width="85" height="15" origin="2" srcId="14" printId="5"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="293" width="85" height="15" origin="2" srcId="14" printId="5"/>
 			<textContent><![CDATA[Cleveland]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="294" width="75" height="15" origin="2" srcId="15" printId="5"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="293" width="105" height="15" origin="2" srcId="15" printId="5"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="294" width="67" height="15" origin="2" srcId="16" printId="5"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="293" width="67" height="15" origin="2" srcId="16" printId="5"/>
 			<textContent><![CDATA[Central]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="293" width="64" height="15" origin="2" srcId="17" printId="5"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="294" width="80" height="15" origin="2" srcId="17" printId="5"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="316" width="501" height="31" origin="2" srcId="12" printId="6"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="316" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="6"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="325" width="70" height="15" origin="2" srcId="13" printId="6"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="325" width="70" height="15" origin="2" srcId="13" printId="6"/>
 			<textContent><![CDATA[Celtics]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="327" width="85" height="15" origin="2" srcId="14" printId="6"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="324" width="85" height="15" origin="2" srcId="14" printId="6"/>
 			<textContent><![CDATA[Boston]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="325" width="75" height="15" origin="2" srcId="15" printId="6"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="324" width="105" height="15" origin="2" srcId="15" printId="6"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="325" width="67" height="15" origin="2" srcId="16" printId="6"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="324" width="67" height="15" origin="2" srcId="16" printId="6"/>
 			<textContent><![CDATA[Atlantic]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="324" width="64" height="15" origin="2" srcId="17" printId="6"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="325" width="80" height="15" origin="2" srcId="17" printId="6"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="347" width="501" height="31" origin="2" srcId="12" printId="7"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="347" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="7"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="356" width="70" height="15" origin="2" srcId="13" printId="7"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="356" width="70" height="15" origin="2" srcId="13" printId="7"/>
 			<textContent><![CDATA[Clippers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="358" width="85" height="15" origin="2" srcId="14" printId="7"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="355" width="85" height="15" origin="2" srcId="14" printId="7"/>
 			<textContent><![CDATA[Los Angeles]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="356" width="75" height="15" origin="2" srcId="15" printId="7"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="355" width="105" height="15" origin="2" srcId="15" printId="7"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="356" width="67" height="15" origin="2" srcId="16" printId="7"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="355" width="67" height="15" origin="2" srcId="16" printId="7"/>
 			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="355" width="64" height="15" origin="2" srcId="17" printId="7"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="356" width="80" height="15" origin="2" srcId="17" printId="7"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="378" width="501" height="31" origin="2" srcId="12" printId="8"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="378" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="8"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="387" width="70" height="15" origin="2" srcId="13" printId="8"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="387" width="70" height="15" origin="2" srcId="13" printId="8"/>
 			<textContent><![CDATA[Grizzlies]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="389" width="85" height="15" origin="2" srcId="14" printId="8"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="386" width="85" height="15" origin="2" srcId="14" printId="8"/>
 			<textContent><![CDATA[Memphis]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="387" width="75" height="15" origin="2" srcId="15" printId="8"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="386" width="105" height="15" origin="2" srcId="15" printId="8"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="387" width="67" height="15" origin="2" srcId="16" printId="8"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="386" width="67" height="15" origin="2" srcId="16" printId="8"/>
 			<textContent><![CDATA[SouthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="386" width="64" height="15" origin="2" srcId="17" printId="8"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="387" width="80" height="15" origin="2" srcId="17" printId="8"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="409" width="501" height="31" origin="2" srcId="12" printId="9"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="409" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="9"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="418" width="70" height="15" origin="2" srcId="13" printId="9"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="418" width="70" height="15" origin="2" srcId="13" printId="9"/>
 			<textContent><![CDATA[Hawks]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="420" width="85" height="15" origin="2" srcId="14" printId="9"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="417" width="85" height="15" origin="2" srcId="14" printId="9"/>
 			<textContent><![CDATA[Atlanta]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="418" width="75" height="15" origin="2" srcId="15" printId="9"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="417" width="105" height="15" origin="2" srcId="15" printId="9"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="418" width="67" height="15" origin="2" srcId="16" printId="9"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="417" width="67" height="15" origin="2" srcId="16" printId="9"/>
 			<textContent><![CDATA[SouthEast]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="417" width="64" height="15" origin="2" srcId="17" printId="9"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="418" width="80" height="15" origin="2" srcId="17" printId="9"/>
 			<textContent><![CDATA[13]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="440" width="501" height="31" origin="2" srcId="12" printId="10"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="440" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="10"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="449" width="70" height="15" origin="2" srcId="13" printId="10"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="449" width="70" height="15" origin="2" srcId="13" printId="10"/>
 			<textContent><![CDATA[Heat]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="451" width="85" height="15" origin="2" srcId="14" printId="10"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="448" width="85" height="15" origin="2" srcId="14" printId="10"/>
 			<textContent><![CDATA[Miami]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="449" width="75" height="15" origin="2" srcId="15" printId="10"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="448" width="105" height="15" origin="2" srcId="15" printId="10"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="449" width="67" height="15" origin="2" srcId="16" printId="10"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="448" width="67" height="15" origin="2" srcId="16" printId="10"/>
 			<textContent><![CDATA[SouthEast]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="448" width="64" height="15" origin="2" srcId="17" printId="10"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="449" width="80" height="15" origin="2" srcId="17" printId="10"/>
 			<textContent><![CDATA[16]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="471" width="501" height="31" origin="2" srcId="12" printId="11"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="471" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="11"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="480" width="70" height="15" origin="2" srcId="13" printId="11"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="480" width="70" height="15" origin="2" srcId="13" printId="11"/>
 			<textContent><![CDATA[Hornets]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="482" width="85" height="15" origin="2" srcId="14" printId="11"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="479" width="85" height="15" origin="2" srcId="14" printId="11"/>
 			<textContent><![CDATA[New Orleans]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="480" width="75" height="15" origin="2" srcId="15" printId="11"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="479" width="105" height="15" origin="2" srcId="15" printId="11"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="480" width="67" height="15" origin="2" srcId="16" printId="11"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="479" width="67" height="15" origin="2" srcId="16" printId="11"/>
 			<textContent><![CDATA[SouthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="479" width="64" height="15" origin="2" srcId="17" printId="11"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="480" width="80" height="15" origin="2" srcId="17" printId="11"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="502" width="501" height="31" origin="2" srcId="12" printId="12"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="502" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="12"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="511" width="70" height="15" origin="2" srcId="13" printId="12"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="511" width="70" height="15" origin="2" srcId="13" printId="12"/>
 			<textContent><![CDATA[Jazz]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="513" width="85" height="15" origin="2" srcId="14" printId="12"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="510" width="85" height="15" origin="2" srcId="14" printId="12"/>
 			<textContent><![CDATA[Utah]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="511" width="75" height="15" origin="2" srcId="15" printId="12"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="510" width="105" height="15" origin="2" srcId="15" printId="12"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="511" width="67" height="15" origin="2" srcId="16" printId="12"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="510" width="67" height="15" origin="2" srcId="16" printId="12"/>
 			<textContent><![CDATA[NorthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="510" width="64" height="15" origin="2" srcId="17" printId="12"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="511" width="80" height="15" origin="2" srcId="17" printId="12"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="533" width="501" height="31" origin="2" srcId="12" printId="13"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="533" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="13"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="542" width="70" height="15" origin="2" srcId="13" printId="13"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="542" width="70" height="15" origin="2" srcId="13" printId="13"/>
 			<textContent><![CDATA[Kings]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="544" width="85" height="15" origin="2" srcId="14" printId="13"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="541" width="85" height="15" origin="2" srcId="14" printId="13"/>
 			<textContent><![CDATA[Sacramento]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="542" width="75" height="15" origin="2" srcId="15" printId="13"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="541" width="105" height="15" origin="2" srcId="15" printId="13"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="542" width="67" height="15" origin="2" srcId="16" printId="13"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="541" width="67" height="15" origin="2" srcId="16" printId="13"/>
 			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="541" width="64" height="15" origin="2" srcId="17" printId="13"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="542" width="80" height="15" origin="2" srcId="17" printId="13"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="564" width="501" height="31" origin="2" srcId="12" printId="14"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="564" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="14"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="573" width="70" height="15" origin="2" srcId="13" printId="14"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="573" width="70" height="15" origin="2" srcId="13" printId="14"/>
 			<textContent><![CDATA[Knicks]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="575" width="85" height="15" origin="2" srcId="14" printId="14"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="572" width="85" height="15" origin="2" srcId="14" printId="14"/>
 			<textContent><![CDATA[New York]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="573" width="75" height="15" origin="2" srcId="15" printId="14"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="572" width="105" height="15" origin="2" srcId="15" printId="14"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="573" width="67" height="15" origin="2" srcId="16" printId="14"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="572" width="67" height="15" origin="2" srcId="16" printId="14"/>
 			<textContent><![CDATA[Atlantic]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="572" width="64" height="15" origin="2" srcId="17" printId="14"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="573" width="80" height="15" origin="2" srcId="17" printId="14"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="595" width="501" height="31" origin="2" srcId="12" printId="15"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="595" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="15"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="604" width="70" height="15" origin="2" srcId="13" printId="15"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="604" width="70" height="15" origin="2" srcId="13" printId="15"/>
 			<textContent><![CDATA[Lakers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="606" width="85" height="15" origin="2" srcId="14" printId="15"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="603" width="85" height="15" origin="2" srcId="14" printId="15"/>
 			<textContent><![CDATA[Los Angeles]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="604" width="75" height="15" origin="2" srcId="15" printId="15"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="603" width="105" height="15" origin="2" srcId="15" printId="15"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="604" width="67" height="15" origin="2" srcId="16" printId="15"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="603" width="67" height="15" origin="2" srcId="16" printId="15"/>
 			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="603" width="64" height="15" origin="2" srcId="17" printId="15"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="604" width="80" height="15" origin="2" srcId="17" printId="15"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="626" width="501" height="31" origin="2" srcId="12" printId="16"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="626" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="16"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="635" width="70" height="15" origin="2" srcId="13" printId="16"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="635" width="70" height="15" origin="2" srcId="13" printId="16"/>
 			<textContent><![CDATA[Magic]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="637" width="85" height="15" origin="2" srcId="14" printId="16"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="634" width="85" height="15" origin="2" srcId="14" printId="16"/>
 			<textContent><![CDATA[Orlando]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="635" width="75" height="15" origin="2" srcId="15" printId="16"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="634" width="105" height="15" origin="2" srcId="15" printId="16"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="635" width="67" height="15" origin="2" srcId="16" printId="16"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="634" width="67" height="15" origin="2" srcId="16" printId="16"/>
 			<textContent><![CDATA[SouthEast]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="634" width="64" height="15" origin="2" srcId="17" printId="16"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="635" width="80" height="15" origin="2" srcId="17" printId="16"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="657" width="501" height="31" origin="2" srcId="12" printId="17"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="657" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="17"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="666" width="70" height="15" origin="2" srcId="13" printId="17"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="666" width="70" height="15" origin="2" srcId="13" printId="17"/>
 			<textContent><![CDATA[Mavericks]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="668" width="85" height="15" origin="2" srcId="14" printId="17"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="665" width="85" height="15" origin="2" srcId="14" printId="17"/>
 			<textContent><![CDATA[Dallas]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="666" width="75" height="15" origin="2" srcId="15" printId="17"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="665" width="105" height="15" origin="2" srcId="15" printId="17"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="666" width="67" height="15" origin="2" srcId="16" printId="17"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="665" width="67" height="15" origin="2" srcId="16" printId="17"/>
 			<textContent><![CDATA[SouthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="665" width="64" height="15" origin="2" srcId="17" printId="17"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="666" width="80" height="15" origin="2" srcId="17" printId="17"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="688" width="501" height="31" origin="2" srcId="12" printId="18"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="688" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="18"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="697" width="70" height="15" origin="2" srcId="13" printId="18"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="697" width="70" height="15" origin="2" srcId="13" printId="18"/>
 			<textContent><![CDATA[Nets]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="699" width="85" height="15" origin="2" srcId="14" printId="18"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="696" width="85" height="15" origin="2" srcId="14" printId="18"/>
 			<textContent><![CDATA[New Jersey]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="697" width="75" height="15" origin="2" srcId="15" printId="18"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="696" width="105" height="15" origin="2" srcId="15" printId="18"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="697" width="67" height="15" origin="2" srcId="16" printId="18"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="696" width="67" height="15" origin="2" srcId="16" printId="18"/>
 			<textContent><![CDATA[Atlantic]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="696" width="64" height="15" origin="2" srcId="17" printId="18"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="697" width="80" height="15" origin="2" srcId="17" printId="18"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="719" width="501" height="31" origin="2" srcId="12" printId="19"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="719" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="19"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="728" width="70" height="15" origin="2" srcId="13" printId="19"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="728" width="70" height="15" origin="2" srcId="13" printId="19"/>
 			<textContent><![CDATA[Nuggets]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="730" width="85" height="15" origin="2" srcId="14" printId="19"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="727" width="85" height="15" origin="2" srcId="14" printId="19"/>
 			<textContent><![CDATA[Denver]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="728" width="75" height="15" origin="2" srcId="15" printId="19"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="727" width="105" height="15" origin="2" srcId="15" printId="19"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="728" width="67" height="15" origin="2" srcId="16" printId="19"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="727" width="67" height="15" origin="2" srcId="16" printId="19"/>
 			<textContent><![CDATA[NorthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="727" width="64" height="15" origin="2" srcId="17" printId="19"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="728" width="80" height="15" origin="2" srcId="17" printId="19"/>
 			<textContent><![CDATA[13]]></textContent>
 		</text>
 		<line>
@@ -2071,7 +2071,7 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 			</graphicElement>
 		</line>
 		<rectangle radius="0">
-			<reportElement uuid="da88eb38-35be-4f04-958b-4c412acaac63" x="47" y="780" width="500" height="26" backcolor="#FCFCE1" origin="3" srcId="19" printId="1"/>
+			<reportElement uuid="da88eb38-35be-4f04-958b-4c412acaac63" x="47" y="780" width="501" height="26" backcolor="#FCFCE1" origin="3" srcId="19" printId="1"/>
 		</rectangle>
 		<text textAlignment="Right" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="60366024-1b9b-49d0-9caf-f600b7b01dd8" x="400" y="782" width="90" height="20" origin="3" srcId="20" printId="1"/>
@@ -2091,347 +2091,373 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="887f48cb-da08-4589-8384-39eb45cf4442" x="59" y="38" width="64" height="15" origin="1" srcId="7" printId="2"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[nombre]]></textContent>
+			<textContent><![CDATA[EQUIPO]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="149" y="38" width="75" height="15" origin="1" srcId="8" printId="2"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[ciudad]]></textContent>
+			<textContent><![CDATA[CIUDAD]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
-			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="334" y="38" width="75" height="15" origin="1" srcId="9" printId="2"/>
+			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="334" y="38" width="106" height="15" origin="1" srcId="9" printId="2"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[conferencia]]></textContent>
+			<textContent><![CDATA[CONFERENCIA]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="242" y="39" width="67" height="15" origin="1" srcId="10" printId="2"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[Division]]></textContent>
+			<textContent><![CDATA[DIVISION]]></textContent>
 		</text>
 		<text textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
-			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="455" y="38" width="68" height="15" origin="1" srcId="11" printId="2"/>
+			<reportElement uuid="f05f9aa6-7893-4893-80c7-2eefd2eed347" x="455" y="38" width="81" height="15" origin="1" srcId="11" printId="2"/>
 			<font fontName="Times New Roman" size="13" isBold="true"/>
-			<textContent><![CDATA[Jugadores]]></textContent>
+			<textContent><![CDATA[Nº Jugadores]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="63" width="501" height="31" origin="2" srcId="12" printId="20"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="63" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="20"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="72" width="70" height="15" origin="2" srcId="13" printId="20"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="72" width="70" height="15" origin="2" srcId="13" printId="20"/>
+			<textContent><![CDATA[Orda]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="71" width="85" height="15" origin="2" srcId="14" printId="20"/>
+			<textContent><![CDATA[Mulik]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="71" width="105" height="15" origin="2" srcId="15" printId="20"/>
+			<textContent><![CDATA[EAST]]></textContent>
+		</text>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="71" width="67" height="15" origin="2" srcId="16" printId="20"/>
+			<textContent><![CDATA[Bran]]></textContent>
+		</text>
+		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="72" width="80" height="15" origin="2" srcId="17" printId="20"/>
+			<textContent><![CDATA[0]]></textContent>
+		</text>
+		<rectangle radius="0">
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="94" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="21"/>
+			<graphicElement>
+				<pen lineWidth="1.0"/>
+			</graphicElement>
+		</rectangle>
+		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="103" width="70" height="15" origin="2" srcId="13" printId="21"/>
 			<textContent><![CDATA[Pacers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="74" width="85" height="15" origin="2" srcId="14" printId="20"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="102" width="85" height="15" origin="2" srcId="14" printId="21"/>
 			<textContent><![CDATA[Indiana]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="72" width="75" height="15" origin="2" srcId="15" printId="20"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="102" width="105" height="15" origin="2" srcId="15" printId="21"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="72" width="67" height="15" origin="2" srcId="16" printId="20"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="102" width="67" height="15" origin="2" srcId="16" printId="21"/>
 			<textContent><![CDATA[Central]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="71" width="64" height="15" origin="2" srcId="17" printId="20"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="103" width="80" height="15" origin="2" srcId="17" printId="21"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="94" width="501" height="31" origin="2" srcId="12" printId="21"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="125" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="22"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="103" width="70" height="15" origin="2" srcId="13" printId="21"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="134" width="70" height="15" origin="2" srcId="13" printId="22"/>
 			<textContent><![CDATA[Pistons]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="105" width="85" height="15" origin="2" srcId="14" printId="21"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="133" width="85" height="15" origin="2" srcId="14" printId="22"/>
 			<textContent><![CDATA[Detroit]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="103" width="75" height="15" origin="2" srcId="15" printId="21"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="133" width="105" height="15" origin="2" srcId="15" printId="22"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="103" width="67" height="15" origin="2" srcId="16" printId="21"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="133" width="67" height="15" origin="2" srcId="16" printId="22"/>
 			<textContent><![CDATA[Central]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="102" width="64" height="15" origin="2" srcId="17" printId="21"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="134" width="80" height="15" origin="2" srcId="17" printId="22"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="125" width="501" height="31" origin="2" srcId="12" printId="22"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="156" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="23"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="134" width="70" height="15" origin="2" srcId="13" printId="22"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="165" width="70" height="15" origin="2" srcId="13" printId="23"/>
 			<textContent><![CDATA[Raptors]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="136" width="85" height="15" origin="2" srcId="14" printId="22"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="164" width="85" height="15" origin="2" srcId="14" printId="23"/>
 			<textContent><![CDATA[Toronto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="134" width="75" height="15" origin="2" srcId="15" printId="22"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="164" width="105" height="15" origin="2" srcId="15" printId="23"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="134" width="67" height="15" origin="2" srcId="16" printId="22"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="164" width="67" height="15" origin="2" srcId="16" printId="23"/>
 			<textContent><![CDATA[Atlantic]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="133" width="64" height="15" origin="2" srcId="17" printId="22"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="165" width="80" height="15" origin="2" srcId="17" printId="23"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="156" width="501" height="31" origin="2" srcId="12" printId="23"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="187" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="24"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="165" width="70" height="15" origin="2" srcId="13" printId="23"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="196" width="70" height="15" origin="2" srcId="13" printId="24"/>
 			<textContent><![CDATA[Rockets]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="167" width="85" height="15" origin="2" srcId="14" printId="23"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="195" width="85" height="15" origin="2" srcId="14" printId="24"/>
 			<textContent><![CDATA[Houston]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="165" width="75" height="15" origin="2" srcId="15" printId="23"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="195" width="105" height="15" origin="2" srcId="15" printId="24"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="165" width="67" height="15" origin="2" srcId="16" printId="23"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="195" width="67" height="15" origin="2" srcId="16" printId="24"/>
 			<textContent><![CDATA[SouthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="164" width="64" height="15" origin="2" srcId="17" printId="23"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="196" width="80" height="15" origin="2" srcId="17" printId="24"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="187" width="501" height="31" origin="2" srcId="12" printId="24"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="218" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="25"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="196" width="70" height="15" origin="2" srcId="13" printId="24"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="227" width="70" height="15" origin="2" srcId="13" printId="25"/>
 			<textContent><![CDATA[Spurs]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="198" width="85" height="15" origin="2" srcId="14" printId="24"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="226" width="85" height="15" origin="2" srcId="14" printId="25"/>
 			<textContent><![CDATA[San Antonio]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="196" width="75" height="15" origin="2" srcId="15" printId="24"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="226" width="105" height="15" origin="2" srcId="15" printId="25"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="196" width="67" height="15" origin="2" srcId="16" printId="24"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="226" width="67" height="15" origin="2" srcId="16" printId="25"/>
 			<textContent><![CDATA[SouthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="195" width="64" height="15" origin="2" srcId="17" printId="24"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="227" width="80" height="15" origin="2" srcId="17" printId="25"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="218" width="501" height="31" origin="2" srcId="12" printId="25"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="249" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="26"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="227" width="70" height="15" origin="2" srcId="13" printId="25"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="258" width="70" height="15" origin="2" srcId="13" printId="26"/>
 			<textContent><![CDATA[Suns]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="229" width="85" height="15" origin="2" srcId="14" printId="25"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="257" width="85" height="15" origin="2" srcId="14" printId="26"/>
 			<textContent><![CDATA[Phoenix]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="227" width="75" height="15" origin="2" srcId="15" printId="25"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="257" width="105" height="15" origin="2" srcId="15" printId="26"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="227" width="67" height="15" origin="2" srcId="16" printId="25"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="257" width="67" height="15" origin="2" srcId="16" printId="26"/>
 			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="226" width="64" height="15" origin="2" srcId="17" printId="25"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="258" width="80" height="15" origin="2" srcId="17" printId="26"/>
 			<textContent><![CDATA[13]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="249" width="501" height="31" origin="2" srcId="12" printId="26"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="280" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="27"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="258" width="70" height="15" origin="2" srcId="13" printId="26"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="289" width="70" height="15" origin="2" srcId="13" printId="27"/>
 			<textContent><![CDATA[Supersonics]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="260" width="85" height="15" origin="2" srcId="14" printId="26"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="288" width="85" height="15" origin="2" srcId="14" printId="27"/>
 			<textContent><![CDATA[Seattle]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="258" width="75" height="15" origin="2" srcId="15" printId="26"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="288" width="105" height="15" origin="2" srcId="15" printId="27"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="258" width="67" height="15" origin="2" srcId="16" printId="26"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="288" width="67" height="15" origin="2" srcId="16" printId="27"/>
 			<textContent><![CDATA[NorthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="257" width="64" height="15" origin="2" srcId="17" printId="26"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="289" width="80" height="15" origin="2" srcId="17" printId="27"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="280" width="501" height="31" origin="2" srcId="12" printId="27"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="311" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="28"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="289" width="70" height="15" origin="2" srcId="13" printId="27"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="320" width="70" height="15" origin="2" srcId="13" printId="28"/>
 			<textContent><![CDATA[Timberwolves]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="291" width="85" height="15" origin="2" srcId="14" printId="27"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="319" width="85" height="15" origin="2" srcId="14" printId="28"/>
 			<textContent><![CDATA[Minnesota]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="289" width="75" height="15" origin="2" srcId="15" printId="27"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="319" width="105" height="15" origin="2" srcId="15" printId="28"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="289" width="67" height="15" origin="2" srcId="16" printId="27"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="319" width="67" height="15" origin="2" srcId="16" printId="28"/>
 			<textContent><![CDATA[NorthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="288" width="64" height="15" origin="2" srcId="17" printId="27"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="320" width="80" height="15" origin="2" srcId="17" printId="28"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="311" width="501" height="31" origin="2" srcId="12" printId="28"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="342" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="29"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="320" width="70" height="15" origin="2" srcId="13" printId="28"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="351" width="70" height="15" origin="2" srcId="13" printId="29"/>
 			<textContent><![CDATA[Trail Blazers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="322" width="85" height="15" origin="2" srcId="14" printId="28"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="350" width="85" height="15" origin="2" srcId="14" printId="29"/>
 			<textContent><![CDATA[Portland]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="320" width="75" height="15" origin="2" srcId="15" printId="28"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="350" width="105" height="15" origin="2" srcId="15" printId="29"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="320" width="67" height="15" origin="2" srcId="16" printId="28"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="350" width="67" height="15" origin="2" srcId="16" printId="29"/>
 			<textContent><![CDATA[NorthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="319" width="64" height="15" origin="2" srcId="17" printId="28"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="351" width="80" height="15" origin="2" srcId="17" printId="29"/>
 			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="342" width="501" height="31" origin="2" srcId="12" printId="29"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="373" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="30"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="351" width="70" height="15" origin="2" srcId="13" printId="29"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="382" width="70" height="15" origin="2" srcId="13" printId="30"/>
 			<textContent><![CDATA[Vaders]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="353" width="85" height="15" origin="2" srcId="14" printId="29"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="381" width="85" height="15" origin="2" srcId="14" printId="30"/>
 			<textContent><![CDATA[Tattoine]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="351" width="75" height="15" origin="2" srcId="15" printId="29"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="381" width="105" height="15" origin="2" srcId="15" printId="30"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="351" width="67" height="15" origin="2" srcId="16" printId="29"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="381" width="67" height="15" origin="2" srcId="16" printId="30"/>
 			<textContent><![CDATA[Sith]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="350" width="64" height="15" origin="2" srcId="17" printId="29"/>
-			<textContent><![CDATA[1]]></textContent>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="382" width="80" height="15" origin="2" srcId="17" printId="30"/>
+			<textContent><![CDATA[2]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="373" width="501" height="31" origin="2" srcId="12" printId="30"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="404" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="31"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="382" width="70" height="15" origin="2" srcId="13" printId="30"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="413" width="70" height="15" origin="2" srcId="13" printId="31"/>
 			<textContent><![CDATA[Warriors]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="384" width="85" height="15" origin="2" srcId="14" printId="30"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="412" width="85" height="15" origin="2" srcId="14" printId="31"/>
 			<textContent><![CDATA[Golden State]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="382" width="75" height="15" origin="2" srcId="15" printId="30"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="412" width="105" height="15" origin="2" srcId="15" printId="31"/>
 			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="382" width="67" height="15" origin="2" srcId="16" printId="30"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="412" width="67" height="15" origin="2" srcId="16" printId="31"/>
 			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="381" width="64" height="15" origin="2" srcId="17" printId="30"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="413" width="80" height="15" origin="2" srcId="17" printId="31"/>
 			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="404" width="501" height="31" origin="2" srcId="12" printId="31"/>
+			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="435" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="32"/>
 			<graphicElement>
 				<pen lineWidth="1.0"/>
 			</graphicElement>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="60" y="413" width="70" height="15" origin="2" srcId="13" printId="31"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="444" width="70" height="15" origin="2" srcId="13" printId="32"/>
 			<textContent><![CDATA[Wizards]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="145" y="415" width="85" height="15" origin="2" srcId="14" printId="31"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="443" width="85" height="15" origin="2" srcId="14" printId="32"/>
 			<textContent><![CDATA[Washington]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="413" width="75" height="15" origin="2" srcId="15" printId="31"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="443" width="105" height="15" origin="2" srcId="15" printId="32"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="243" y="413" width="67" height="15" origin="2" srcId="16" printId="31"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="443" width="67" height="15" origin="2" srcId="16" printId="32"/>
 			<textContent><![CDATA[SouthEast]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="456" y="412" width="64" height="15" origin="2" srcId="17" printId="31"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="444" width="80" height="15" origin="2" srcId="17" printId="32"/>
 			<textContent><![CDATA[13]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="444509a3-2442-41b5-aac4-03cb34412c70" x="47" y="429" width="500" height="25" backcolor="#2F60B5" origin="4" srcId="22" printId="1"/>
+			<reportElement uuid="444509a3-2442-41b5-aac4-03cb34412c70" x="47" y="460" width="501" height="25" backcolor="#2F60B5" origin="4" srcId="22" printId="1"/>
 		</rectangle>
 		<text textAlignment="Left" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
-			<reportElement uuid="4708d9da-6edb-41a8-b9c4-38e318c70691" x="60" y="434" width="300" height="15" backcolor="#C72C2A" origin="4" srcId="23" printId="1"/>
+			<reportElement uuid="4708d9da-6edb-41a8-b9c4-38e318c70691" x="60" y="465" width="300" height="15" backcolor="#C72C2A" origin="4" srcId="23" printId="1"/>
 			<font fontName="Times New Roman" size="12"/>
-			<textContent><![CDATA[Total Registros: 31]]></textContent>
+			<textContent><![CDATA[Total Registros: 32]]></textContent>
 		</text>
 		<line>
 			<reportElement uuid="eba12ef3-fd1c-485f-9d52-8740af377cfb" x="47" y="779" width="500" height="1" backcolor="#2F60B5" origin="3" srcId="18" printId="2"/>
@@ -2440,7 +2466,7 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 			</graphicElement>
 		</line>
 		<rectangle radius="0">
-			<reportElement uuid="da88eb38-35be-4f04-958b-4c412acaac63" x="47" y="780" width="500" height="26" backcolor="#FCFCE1" origin="3" srcId="19" printId="2"/>
+			<reportElement uuid="da88eb38-35be-4f04-958b-4c412acaac63" x="47" y="780" width="501" height="26" backcolor="#FCFCE1" origin="3" srcId="19" printId="2"/>
 		</rectangle>
 		<text textAlignment="Right" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="60366024-1b9b-49d0-9caf-f600b7b01dd8" x="400" y="782" width="90" height="20" origin="3" srcId="20" printId="2"/>

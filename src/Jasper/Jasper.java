@@ -17,7 +17,7 @@ import java.util.HashMap;
 public class Jasper {
 
 	public void crearJasper() {
-		String reportSource = "./plantilla/plantilla.jrxml";
+		String reportSource = "./plantilla/plantilla_baloncesto.jrxml";
 		String reportHTML = "./informes/Informe.html";
 		String reportPDF = "./informes/Informe.pdf";
 		String reportXML = "./informes/Informe.xml";
