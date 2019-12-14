@@ -395,10 +395,24 @@ public class Lanzador {
 		ImagenLogo(lbDrch,FONDO);
 		ImagenLogo(lbimg,LOGO_BASKET);
 		
+		JButton btnEstadisticas = new JButton("Mostrar Estadisticas");
+		btnEstadisticas.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				abrirEstadisticas();
+			}
+		});
+		btnEstadisticas.setBounds(39, 352, 162, 51);
+		contentPane.add(btnEstadisticas);
+		
 	
 		
 		
 		mostrarEquipos();
+	}
+	
+	private void abrirEstadisticas() {
+		Dialog_Estadisticas dialog=new Dialog_Estadisticas(frame,true);
+		dialog.setVisible(true);
 	}
 	// si de nuestra tabla tenemos seleccionado un row , podemos modificar el equipo en caso contrario nos pedira que seleccionemos uno primero
 	private void actualizarEquipo() {

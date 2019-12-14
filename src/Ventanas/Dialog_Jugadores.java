@@ -16,6 +16,7 @@ import org.hibernate.Transaction;
 import org.hibernate.exception.ConstraintViolationException;
 
 import Hibernate.Equipos;
+import Hibernate.Estadisticas;
 import Hibernate.Jugadores;
 import Singleton.HibernateUtil;
 
@@ -54,6 +55,7 @@ public class Dialog_Jugadores extends JDialog {
 
 	private final JPanel contentPanel = new JPanel();
 	private JTable table;
+	private JFrame frame;
 
 	private DefaultTableModel model;
 	private ImageIcon NBA = new ImageIcon(Lanzador.class.getResource("/imagenes/NBA.png"));
@@ -69,6 +71,7 @@ public class Dialog_Jugadores extends JDialog {
 	private JTextField txtAltura;
 	private JTextField txtPeso;
 	private JTextField txtPosicion;
+	public static  int codigo_jugador;
 	JComboBox comboBox;
 
 	/**
@@ -82,6 +85,7 @@ public class Dialog_Jugadores extends JDialog {
 	 */
 	public Dialog_Jugadores(JFrame parent, boolean mode) throws IOException {
 		super(parent, mode);
+		frame=parent;
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Dialog_Jugadores.class.getResource("/imagenes/balon.png")));
 		setType(Type.POPUP);
 		setModalityType(ModalityType.APPLICATION_MODAL);
@@ -123,9 +127,7 @@ public class Dialog_Jugadores extends JDialog {
 
 		table = new JTable();
 		table.setBackground(new Color(255, 51, 153));
-		table.setModel(new DefaultTableModel(new Object[][] {
-
-		}, new String[] { "Codigo", "Nombre", "Procedencia", "Altura", "Peso", "Posicion" }));
+		
 		scrollPane.setViewportView(table);
 
 		lbImg = new JLabel();
@@ -197,6 +199,7 @@ public class Dialog_Jugadores extends JDialog {
 		cancelButton.setBackground(new Color(255, 0, 102));
 		cancelButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				codigo_jugador=0;
 				getParent().setVisible(true);
 				dispose();
 			}
@@ -312,9 +315,28 @@ public class Dialog_Jugadores extends JDialog {
 		lbAlert.setForeground(new Color(255, 0, 51));
 		lbAlert.setBounds(35, 290, 238, 49);
 		panel_3.add(lbAlert);
+		
+		JButton btnEstadisticas = new JButton("Estadisticas");
+		btnEstadisticas.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				mostrarEstadisticas();
+			}
+		});
+		btnEstadisticas.setBounds(862, 80, 134, 31);
+		contentPanel.add(btnEstadisticas);
 		cargarComboBox();
 		mostrarJugadores();
 
+	}
+	public void mostrarEstadisticas() {
+		if (table.getSelectedRow() >= 0) {
+				codigo_jugador=Integer.parseInt((String) model.getValueAt(table.getSelectedRow(), 0));
+				Dialog_Estadisticas dialog=new Dialog_Estadisticas(frame,true);
+				dialog.setVisible(true);
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "Debe seleccionar primero un equipo de la tabla para visualizar sus jugadores");
+		}
 	}
 
 	private void actualizarJugador() {
@@ -452,7 +474,15 @@ public class Dialog_Jugadores extends JDialog {
 
 			}
 			if (isValid) {
-				jugador = new Jugadores(code, GetEquipo(equipo), nombre, procedencia, altura, libras, posicion);
+				jugador = new Jugadores();
+				jugador.setCodigo(code);
+				jugador.setAltura(altura);
+				jugador.setProcedencia(procedencia);
+				jugador.setNombre(nombre);
+				jugador.setPeso(libras);
+				jugador.setPosicion(posicion);
+				jugador.setEquipos(GetEquipo(equipo));
+						
 				insertarJugador(jugador);
 			} else {
 				lbAlert.setText(alert);
@@ -497,6 +527,7 @@ public class Dialog_Jugadores extends JDialog {
 		session.close();
 		return equipo;
 	}
+	
 
 	private void ImagenIn(JLabel label, ImageIcon img) {
 		Icon icon = new ImageIcon(
@@ -517,6 +548,22 @@ public class Dialog_Jugadores extends JDialog {
 		}
 
 		table.setModel(model);
+	}
+	
+	
+	public Jugadores recogerJugadores() {
+		
+		SessionFactory sesion = HibernateUtil.getSessionFactory();
+		Session session = sesion.openSession();
+		Jugadores jugador ;
+
+		Query query = session.createQuery("FROM Jugadores WHERE codigo="+codigo_jugador);
+		
+		jugador= (Jugadores) query.uniqueResult();				
+		
+		session.close();
+		return jugador;
+		
 	}
 
 	public void cargarComboBox() {
@@ -602,7 +649,7 @@ public class Dialog_Jugadores extends JDialog {
 			while (it.hasNext()) {
 				Jugadores jugador = it.next();
 				String[] data = { jugador.getCodigo() + "", jugador.getNombre(), jugador.getProcedencia(),
-						jugador.getAltura(), jugador.getPeso() + "", jugador.getPosicion() };
+						jugador.getAltura(), jugador.getPeso() + "", jugador.getPosicion()};
 				
 				arrayDatos.add(data);
 			}

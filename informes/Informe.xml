@@ -23,7 +23,7 @@
 		<text textAlignment="Center" textHeight="14.94873" lineSpacingFactor="1.1499023" leadingOffset="-2.5358887">
 			<reportElement uuid="37e13a25-015e-4bc7-af7c-cbb332ef4dbb" x="130" y="104" width="336" height="20" backcolor="#FCFCE1" origin="0" srcId="4" printId="1"/>
 			<font fontName="Times New Roman" size="13"/>
-			<textContent><![CDATA[Realizado por: ANTHONY MOSCOSOS on Fri Dec 13 14:51:]]></textContent>
+			<textContent><![CDATA[Realizado por: ANTHONY MOSCOSOS on Sat Dec 14 01:30:]]></textContent>
 		</text>
 		<image scaleImage="RetainShape" hAlign="Center" vAlign="Top" onErrorType="Icon">
 			<reportElement uuid="90406176-1412-4eee-ac2f-34059f185db1" x="70" y="40" width="110" height="50" origin="0" srcId="5" printId="2"/>
@@ -2121,23 +2121,23 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="72" width="70" height="15" origin="2" srcId="13" printId="20"/>
-			<textContent><![CDATA[Orda]]></textContent>
+			<textContent><![CDATA[Pacers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="71" width="85" height="15" origin="2" srcId="14" printId="20"/>
-			<textContent><![CDATA[Mulik]]></textContent>
+			<textContent><![CDATA[Indiana]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="71" width="105" height="15" origin="2" srcId="15" printId="20"/>
-			<textContent><![CDATA[EAST]]></textContent>
+			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="71" width="67" height="15" origin="2" srcId="16" printId="20"/>
-			<textContent><![CDATA[Bran]]></textContent>
+			<textContent><![CDATA[Central]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="72" width="80" height="15" origin="2" srcId="17" printId="20"/>
-			<textContent><![CDATA[0]]></textContent>
+			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="94" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="21"/>
@@ -2147,11 +2147,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="103" width="70" height="15" origin="2" srcId="13" printId="21"/>
-			<textContent><![CDATA[Pacers]]></textContent>
+			<textContent><![CDATA[Pistons]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="102" width="85" height="15" origin="2" srcId="14" printId="21"/>
-			<textContent><![CDATA[Indiana]]></textContent>
+			<textContent><![CDATA[Detroit]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="102" width="105" height="15" origin="2" srcId="15" printId="21"/>
@@ -2173,11 +2173,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="134" width="70" height="15" origin="2" srcId="13" printId="22"/>
-			<textContent><![CDATA[Pistons]]></textContent>
+			<textContent><![CDATA[Raptors]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="133" width="85" height="15" origin="2" srcId="14" printId="22"/>
-			<textContent><![CDATA[Detroit]]></textContent>
+			<textContent><![CDATA[Toronto]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="133" width="105" height="15" origin="2" srcId="15" printId="22"/>
@@ -2185,11 +2185,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="133" width="67" height="15" origin="2" srcId="16" printId="22"/>
-			<textContent><![CDATA[Central]]></textContent>
+			<textContent><![CDATA[Atlantic]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="134" width="80" height="15" origin="2" srcId="17" printId="22"/>
-			<textContent><![CDATA[15]]></textContent>
+			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="156" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="23"/>
@@ -2199,23 +2199,23 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="165" width="70" height="15" origin="2" srcId="13" printId="23"/>
-			<textContent><![CDATA[Raptors]]></textContent>
+			<textContent><![CDATA[Rockets]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="164" width="85" height="15" origin="2" srcId="14" printId="23"/>
-			<textContent><![CDATA[Toronto]]></textContent>
+			<textContent><![CDATA[Houston]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="164" width="105" height="15" origin="2" srcId="15" printId="23"/>
-			<textContent><![CDATA[East]]></textContent>
+			<textContent><![CDATA[West]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="164" width="67" height="15" origin="2" srcId="16" printId="23"/>
-			<textContent><![CDATA[Atlantic]]></textContent>
+			<textContent><![CDATA[SouthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="165" width="80" height="15" origin="2" srcId="17" printId="23"/>
-			<textContent><![CDATA[14]]></textContent>
+			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="187" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="24"/>
@@ -2225,11 +2225,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="196" width="70" height="15" origin="2" srcId="13" printId="24"/>
-			<textContent><![CDATA[Rockets]]></textContent>
+			<textContent><![CDATA[Spurs]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="195" width="85" height="15" origin="2" srcId="14" printId="24"/>
-			<textContent><![CDATA[Houston]]></textContent>
+			<textContent><![CDATA[San Antonio]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="195" width="105" height="15" origin="2" srcId="15" printId="24"/>
@@ -2251,11 +2251,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="227" width="70" height="15" origin="2" srcId="13" printId="25"/>
-			<textContent><![CDATA[Spurs]]></textContent>
+			<textContent><![CDATA[Suns]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="226" width="85" height="15" origin="2" srcId="14" printId="25"/>
-			<textContent><![CDATA[San Antonio]]></textContent>
+			<textContent><![CDATA[Phoenix]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="226" width="105" height="15" origin="2" srcId="15" printId="25"/>
@@ -2263,11 +2263,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="226" width="67" height="15" origin="2" srcId="16" printId="25"/>
-			<textContent><![CDATA[SouthWest]]></textContent>
+			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="227" width="80" height="15" origin="2" srcId="17" printId="25"/>
-			<textContent><![CDATA[15]]></textContent>
+			<textContent><![CDATA[13]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="249" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="26"/>
@@ -2277,11 +2277,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="258" width="70" height="15" origin="2" srcId="13" printId="26"/>
-			<textContent><![CDATA[Suns]]></textContent>
+			<textContent><![CDATA[Supersonics]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="257" width="85" height="15" origin="2" srcId="14" printId="26"/>
-			<textContent><![CDATA[Phoenix]]></textContent>
+			<textContent><![CDATA[Seattle]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="257" width="105" height="15" origin="2" srcId="15" printId="26"/>
@@ -2289,11 +2289,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="257" width="67" height="15" origin="2" srcId="16" printId="26"/>
-			<textContent><![CDATA[Pacific]]></textContent>
+			<textContent><![CDATA[NorthWest]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="258" width="80" height="15" origin="2" srcId="17" printId="26"/>
-			<textContent><![CDATA[13]]></textContent>
+			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="280" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="27"/>
@@ -2303,11 +2303,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="289" width="70" height="15" origin="2" srcId="13" printId="27"/>
-			<textContent><![CDATA[Supersonics]]></textContent>
+			<textContent><![CDATA[Timberwolves]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="288" width="85" height="15" origin="2" srcId="14" printId="27"/>
-			<textContent><![CDATA[Seattle]]></textContent>
+			<textContent><![CDATA[Minnesota]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="288" width="105" height="15" origin="2" srcId="15" printId="27"/>
@@ -2319,7 +2319,7 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="289" width="80" height="15" origin="2" srcId="17" printId="27"/>
-			<textContent><![CDATA[15]]></textContent>
+			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="311" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="28"/>
@@ -2329,11 +2329,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="320" width="70" height="15" origin="2" srcId="13" printId="28"/>
-			<textContent><![CDATA[Timberwolves]]></textContent>
+			<textContent><![CDATA[Trail Blazers]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="319" width="85" height="15" origin="2" srcId="14" printId="28"/>
-			<textContent><![CDATA[Minnesota]]></textContent>
+			<textContent><![CDATA[Portland]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="319" width="105" height="15" origin="2" srcId="15" printId="28"/>
@@ -2345,7 +2345,7 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="320" width="80" height="15" origin="2" srcId="17" printId="28"/>
-			<textContent><![CDATA[14]]></textContent>
+			<textContent><![CDATA[15]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="342" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="29"/>
@@ -2355,11 +2355,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="351" width="70" height="15" origin="2" srcId="13" printId="29"/>
-			<textContent><![CDATA[Trail Blazers]]></textContent>
+			<textContent><![CDATA[Vaders]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="350" width="85" height="15" origin="2" srcId="14" printId="29"/>
-			<textContent><![CDATA[Portland]]></textContent>
+			<textContent><![CDATA[tatootine]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="350" width="105" height="15" origin="2" srcId="15" printId="29"/>
@@ -2367,11 +2367,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="350" width="67" height="15" origin="2" srcId="16" printId="29"/>
-			<textContent><![CDATA[NorthWest]]></textContent>
+			<textContent><![CDATA[Sith]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="351" width="80" height="15" origin="2" srcId="17" printId="29"/>
-			<textContent><![CDATA[15]]></textContent>
+			<textContent><![CDATA[2]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="373" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="30"/>
@@ -2381,11 +2381,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="382" width="70" height="15" origin="2" srcId="13" printId="30"/>
-			<textContent><![CDATA[Vaders]]></textContent>
+			<textContent><![CDATA[Warriors]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="381" width="85" height="15" origin="2" srcId="14" printId="30"/>
-			<textContent><![CDATA[Tattoine]]></textContent>
+			<textContent><![CDATA[Golden State]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="381" width="105" height="15" origin="2" srcId="15" printId="30"/>
@@ -2393,11 +2393,11 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="381" width="67" height="15" origin="2" srcId="16" printId="30"/>
-			<textContent><![CDATA[Sith]]></textContent>
+			<textContent><![CDATA[Pacific]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="382" width="80" height="15" origin="2" srcId="17" printId="30"/>
-			<textContent><![CDATA[2]]></textContent>
+			<textContent><![CDATA[14]]></textContent>
 		</text>
 		<rectangle radius="0">
 			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="404" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="31"/>
@@ -2407,57 +2407,31 @@ AAAAAACAeu7/AY70D0sphxaDAAAAAElFTkSuQmCC]]>
 		</rectangle>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
 			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="413" width="70" height="15" origin="2" srcId="13" printId="31"/>
-			<textContent><![CDATA[Warriors]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="412" width="85" height="15" origin="2" srcId="14" printId="31"/>
-			<textContent><![CDATA[Golden State]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="412" width="105" height="15" origin="2" srcId="15" printId="31"/>
-			<textContent><![CDATA[West]]></textContent>
-		</text>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="412" width="67" height="15" origin="2" srcId="16" printId="31"/>
-			<textContent><![CDATA[Pacific]]></textContent>
-		</text>
-		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="413" width="80" height="15" origin="2" srcId="17" printId="31"/>
-			<textContent><![CDATA[14]]></textContent>
-		</text>
-		<rectangle radius="0">
-			<reportElement uuid="5dee6f0c-59ee-4046-8ac1-82a9a5abacb1" x="47" y="435" width="501" height="31" backcolor="#F9FCE8" origin="2" srcId="12" printId="32"/>
-			<graphicElement>
-				<pen lineWidth="1.0"/>
-			</graphicElement>
-		</rectangle>
-		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="59" y="444" width="70" height="15" origin="2" srcId="13" printId="32"/>
 			<textContent><![CDATA[Wizards]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="443" width="85" height="15" origin="2" srcId="14" printId="32"/>
+			<reportElement uuid="d1fe33ee-6df4-4df5-9e7a-6c0c4b9fb810" x="144" y="412" width="85" height="15" origin="2" srcId="14" printId="31"/>
 			<textContent><![CDATA[Washington]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="443" width="105" height="15" origin="2" srcId="15" printId="32"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="335" y="412" width="105" height="15" origin="2" srcId="15" printId="31"/>
 			<textContent><![CDATA[East]]></textContent>
 		</text>
 		<text textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="443" width="67" height="15" origin="2" srcId="16" printId="32"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="250" y="412" width="67" height="15" origin="2" srcId="16" printId="31"/>
 			<textContent><![CDATA[SouthEast]]></textContent>
 		</text>
 		<text textAlignment="Justified" textHeight="12.578125" lineSpacingFactor="1.2578125" leadingOffset="-2.1972656" valueClass="java.lang.Integer">
-			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="444" width="80" height="15" origin="2" srcId="17" printId="32"/>
+			<reportElement uuid="02405d54-64e4-4999-b902-b44bbf88b4ac" x="455" y="413" width="80" height="15" origin="2" srcId="17" printId="31"/>
 			<textContent><![CDATA[13]]></textContent>
 		</text>
 		<rectangle radius="0">
-			<reportElement uuid="444509a3-2442-41b5-aac4-03cb34412c70" x="47" y="460" width="501" height="25" backcolor="#2F60B5" origin="4" srcId="22" printId="1"/>
+			<reportElement uuid="444509a3-2442-41b5-aac4-03cb34412c70" x="47" y="429" width="501" height="25" backcolor="#2F60B5" origin="4" srcId="22" printId="1"/>
 		</rectangle>
 		<text textAlignment="Left" textHeight="13.798828" lineSpacingFactor="1.1499023" leadingOffset="-2.3408203">
-			<reportElement uuid="4708d9da-6edb-41a8-b9c4-38e318c70691" x="60" y="465" width="300" height="15" backcolor="#C72C2A" origin="4" srcId="23" printId="1"/>
+			<reportElement uuid="4708d9da-6edb-41a8-b9c4-38e318c70691" x="60" y="434" width="300" height="15" backcolor="#C72C2A" origin="4" srcId="23" printId="1"/>
 			<font fontName="Times New Roman" size="12"/>
-			<textContent><![CDATA[Total Registros: 32]]></textContent>
+			<textContent><![CDATA[Total Registros: 31]]></textContent>
 		</text>
 		<line>
 			<reportElement uuid="eba12ef3-fd1c-485f-9d52-8740af377cfb" x="47" y="779" width="500" height="1" backcolor="#2F60B5" origin="3" srcId="18" printId="2"/>

@@ -27,6 +27,7 @@ public class Jasper {
 		params.put("titulo", "INFORME DE EQUIPOS");
 		params.put("autor", "ANTHONY MOSCOSOS");
 		params.put("fecha", (new java.util.Date()).toString());
+		
 
 		try {
 			//compilamos  la plantilla y obtenemos el objeto JasperReport

@@ -13,6 +13,7 @@
         <property name="hibernate.search.autoregister_listeners">true</property>
         <property name="hibernate.validator.apply_to_ddl">false</property>
         <mapping resource="Hibernate/Jugadores.hbm.xml" />
+        <mapping resource="Hibernate/Estadisticas.hbm.xml" />
         <mapping resource="Hibernate/Equipos.hbm.xml" />
     </session-factory>
 </hibernate-configuration>
